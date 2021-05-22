@@ -1,0 +1,23 @@
+menu responsive create by j-query:
+
+1. JS file js folder name dia main folder a rakte hobe.
+2. Below ai script ta body te paste korte hobe ...
+   and manu r ul a class dite hobe nav name dia (<ul id="nav">)
+
+
+<!-- js link ---->  
+
+   <!-- jQuery Min Version ---->  
+        <script src=”http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js” type=”text/javascript” charset=”utf-8″></script>
+        <!--JS File For Responsive Menu ---->  
+                <script src=”js/responsive-menu.js”></script>
+        <script>
+          domready(function(){
+                    selectnav('nav', {
+                label: '*** Select Nav ***'
+            });
+            prettyPrint()
+                })
+        </script>
+
+

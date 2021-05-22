@@ -1,0 +1,13 @@
+core i5
+6th generation
+256 ssd
+display:14.5"
+HP
+price:35000 tk
+-----------------------
+core i7
+5th generation
+500 GB HDD
+display:14.5"
+HP
+price:35000 tk

@@ -1,0 +1,284 @@
+/* -------------------------Tablet Mode------------------------ */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+
+    .full_website{
+        width:100%;
+     }
+     .top_header_area {
+        width: 96%;    
+    }
+  
+     .container {
+        width: 97%;
+    }
+    .search_box {
+        width: 30%;
+    }
+
+    
+    .main_menu {
+        height: 46px;
+        display: none;
+    }
+    .image_sec {
+            float: left;
+            width: 61%;
+    }
+    .content_hero h2 {
+        font-size: 77px;
+        line-height: normal;
+    }
+
+    .about h2, .services h2, .testimonial h2 {
+     font-size: 24px;
+}   
+     .about img {
+     width: 96%;
+}
+ .subfooter_section h2 {
+    font-size: 14px;
+}
+  .left_copy {
+    width: 45%;
+}
+  .right_copy {
+    width: 25%;
+}
+}  
+
+   
+ /*#######################################   Mobile Mode   ####################################### */
+
+ @media only screen and (min-width:480px) and (max-width:767px){
+
+    .full_website{
+       width:100%;
+       /* background:yellow; */
+    }
+    .main_menu {
+        display: none;
+    }
+    .container {
+        width: 97%;
+    }
+   
+.top_header_area {
+    width: 95%;
+}
+    .search_box {
+        width: 76%;
+        float: right;
+        padding-top: 10px;
+    }
+    .logo {
+        width: 38%;
+    }
+    .social_menu {
+        width: 57%;}
+
+.logo img {
+         width: 99%;
+         margin-left: 3px;
+        }   
+
+    .main_menu {
+            height: 48px;
+     }
+   .image_sec {
+    width: 100%;
+    text-align: center;
+     }
+     .main_div {
+    flex-direction: column;
+    }
+    
+    .main_div h2 {
+        margin-bottom: 10px;
+    }
+
+    .about{
+        width: 94%;
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+    }
+    .services{
+        width: 94%;
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+    }
+    .testimonial{
+        width: 94%;
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+    }
+    .about_sec {
+        padding-top: 10px;
+    }
+    .about h2, .services h2, .testimonial h2 {
+        margin-top: 30px;
+    }
+   
+    /* footer----------------------------------- */
+    .main_footer {
+        flex-direction: column;
+    }
+    .subfooter_section {
+        width: 100%;
+        text-align: center;
+        margin:0 auto;
+     }
+
+    .subfooter_section form input[type="text"] {
+        padding-right: 128px;
+     }
+     .subfooter_section form input[type="email"] {
+            padding-right: 128px;
+     }
+
+      textarea {          
+                padding-right: 144px;
+                }
+
+    .subfooter_section form input[type="submit"] {
+        color: #b92d1f;
+        border: 0px solid;
+        padding: 7px;
+        margin-top: 5px;
+        border-radius: 4px;
+        margin-left: -212px;
+        margin-bottom: 11px;
+        }
+
+    .left_copy {width: 60%;
+    }
+    .right_copy {width: 38%;                
+    }
+}
+
+
+ /*##################################### For small Device #####################################*/
+
+ @media only screen and (min-width:200px) and (max-width:479px){
+
+    .full_website{
+       width:100%;
+       /* background:rgb(243, 64, 64); */
+    }
+    .container{width:97%
+    }
+    .main_menu {
+        display: none;
+    }
+    .social_menu {
+        width: 50%;
+    }
+    .top_header_menu {
+        width: 80%;
+    }
+    .top_header_area {
+        width: 93%;
+    }
+    .search_box {
+        width: 100%;
+        float: right;
+        padding-top: 0px;
+    }
+    .search_box form input[type="text"] {
+        margin-left: 0px;
+    }
+    .logo img {
+        width: 97%;
+        margin-left: 3px;
+    }
+    .social_menu {
+        width: 90%;
+        padding-right: 24px;
+        padding-top: 0px;
+    }
+    .main_menu {
+            height: 62px;
+     }
+     .content_hero h2 {
+        font-size: 45px;
+         
+    }
+    .content_hero p {
+        font-size: 16px;
+        color: #666666;
+        font-weight: normal;
+        line-height: 1.3em;
+        padding: 13px;
+    }
+   .image_sec {
+    width: 100%;
+    text-align: center;
+    height: 200px;
+     }
+     .main_div {
+    flex-direction: column;
+    }
+    
+    .main_div h2 {
+        margin-bottom: 10px;
+    }
+
+    .about{
+        width: 90%;
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+    }
+    .services{
+        width: 90%;
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+    }
+    .testimonial{
+        width: 90%;
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+    }
+    .about_sec {
+        padding-top: 10px;
+    }
+    .about h2, .services h2, .testimonial h2 {
+        margin-top: 30px;
+    }
+    .main_footer {
+        flex-direction: column;
+    }
+    .subfooter_section {
+        width: 95%;
+        text-align: center;
+        margin:0 auto;
+     }
+
+   
+
+    .subfooter_section form input[type="submit"] {
+        color: #b92d1f;
+        border: 0px solid;
+        padding: 7px;
+        margin-top: 5px;
+        border-radius: 4px;
+        margin-left: 0px;
+        margin-bottom: 11px;
+        }
+        .copyright {
+            height: 69px;
+        }
+
+    .left_copy {width: 56%;
+    }
+    .right_copy {width: 43%;                
+    }
+}
+
+
+

@@ -1,0 +1,39 @@
+plaging download for responsive menu by jquery-plugin.
+
+google-meanmenu jquaery-"https://github.com/meanthemes/meanMenu"
+download Zip file-file name "meanMenu-master"
+from folder 2 file copy and paste to new-folder named js.
+file name should rename as "meanmenu.min.js" & "meanmenu.min.css".(jquery bad)
+
+inside the folder name meanMenu-master has demo.html should open with notepad++ then open and copy line no 123
+"<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>"
+and paste the line in main html(/body) file at below .
+same 124 no line should copy and past after above line with edit.
+ "<script src="js/meanmenu.min.js"></script>"
+paste below script after above line with-
+<script>
+   $(document).ready(function () {
+     $('nav').meanmenu(
+       {
+         meanScreenWidth: '768',
+       }
+     );
+   });
+ </script>
+
+or another way can follow.
+creat file name main.js and link"<script src="main.js"></script> " paste in body at below.
+copy in main.js file
+ "
+$(document).ready(function () {
+    $('nav').meanmenu(
+        {
+            meanScreenWidth:'768',
+    }
+    );
+});
+"
+in main.js file with edit and save.
+
+
+in top <head> link " <link rel="stylesheet" href="js/meanmenu.min.css"> " should paste .
